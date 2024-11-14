@@ -138,4 +138,24 @@ Also, apart from the output of index.php, include in your document file the proc
 <br>
 
 ## LAB 4
+1. Type the code below in your text editor and save as employees.php in C:\xampp\htdocs\sample directory (it is the same folder sample inside C:\xampp\htdocs\ that we used from previous labs). The “action” attribute of the form calls the “addEmployee.php” file when the “submit” input gets clicked. This causes the form to get submitted passing all the form data to “addEmployee.php”
+2. Create the following file and save it in the C:\xampp\htdocs\sample as addEmployee.php
+3. Modify New Employee form from employees.php
+4. Still in the employees.php, make the Department dropdown dynamic.
+5. Modify the php file used in displaying all employees per department. Show the designation of each employee in each department.
+6. Delete and Edit data. Now, we’re adding another column named “actions” that will contain delete and edit buttons. To do this, add another column at the right side of the table and name it “actions” in employee.php.
+
+**TASKS:**
+Create the following php files for the new buttons (delete and edit) to work:
+1. deleteEmployee.php. Use $_POST[“EmpID”] to access the ID of the employee in the current row. Delete this employee from the database.
+After this, redirect to index.php
+3. editEmployee.php. Use $_POST[“EmpID”] to access the ID of the employee in the current row. Display a form with fields filled in what all the information of an employee (similar to Add New. Employee Form but with initial values already). Don’t forget to add a “cancel” and “submit” buttons in the edit form. After this, redirect to index.php.
+
+Note: You can check your database if your php files for deleting and editing employees in the database indeed work.
+
+Take a screenshot of the entire screen of your laptop/desktop (should include the Taskbar of your desktop – do not crop your screenshot) after displaying the output in your browser.
+
+Put this screenshot in a document file that you will submit as an output for this Laboratory exercise.
+
+Also, apart from the output, include in your document file the process(es) (with screenshots) of how you were able to get the output and explain the process(es).
 
