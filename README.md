@@ -117,7 +117,23 @@ Take a screenshot of the entire screen of your laptop/desktop (should include th
 
 Put those three (3) screenshots in a document file that you will submit as an output for this Laboratory exercise.
 
+### Lab 3.3
+1. Open a Connection to MySQL. Type the code below in your text editor and save as index.php in C:\xampp\htdocs\sample directory (it is the same folder sample inside C:\xampp\htdocs\ that we used from Lab 3.2).
+This time, we created a php file with HTML elements. The php code is within the HTML code. The index.php will use the department.php file (you will create this in Step 2).
+2. Type the code below in your text editor and save as department.php in C:\xampp\htdocs\sample directory.
+3. Access the index.php file in a browser using the url localhost/sample/index.php
+Make sure that you START Apache and MySQL (in XAMPP) so that you can access the index.php in your browser.
 
+**TASK:**
+Modify/add some code to the index.php file and create another separate php file (like the department.php) to retrieve the list of employees per department:
+• List of Employees per department
+• (id, employee name, age, salary, hire date)
+
+Take a screenshot of the entire screen of your laptop/desktop (should include the Taskbar of your desktop – do not crop your screenshot) after displaying the output of the modified index.php in your browser.
+
+Put this screenshot in a document file that you will submit as an output for this Laboratory exercise.
+
+Also, apart from the output of index.php, include in your document file the process (with screenshots) of how you were able to get the output and explain the process.
 
 <br>
 
