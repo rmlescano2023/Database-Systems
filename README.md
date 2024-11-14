@@ -13,7 +13,7 @@ significant relationships between pairs of entities.
 Create a Crow’s Foot ERD for each of the following descriptions. (Note that the
 word "many" is meant to mean "more than one" in a database modelling environment.).
 
-*Note. Include all your ERDs in one file.*
+*Note. Include all your ERDs in one file.* <br>
 
 **Data Descriptions:**
 1. Each of the MegaCo Corporation’s divisions is composed of many departments. Each of the departments has many employees assigned to it, but each employee works for only one department. Each department is managed by one employee, and each of these managers can manage only one department at a time.
@@ -31,7 +31,7 @@ Using DIA or any other free software of your choice to create an ERD, draw an ER
 Read the descriptions carefully and create a Crow’s Foot ERD for each of the following descriptions. (Note that the word "many" is meant to mean "more than one" in a database
 modelling environment.).
 
-*Note. Include all your ERDs in one file.*
+*Note. Include all your ERDs in one file.* <br>
 
 **Data Descriptions:**
 1. Hospital Database
@@ -42,7 +42,7 @@ A local specialized hospital in has decided to digitize its information. Assume 
 * The system must record that each patient in the hospital is assigned to one or more doctors, while each doctor may prescribe certain medicines to each patient. Also, the medicine prescribed by each doctor to each patient has a name and shall follow specific instruction (given by the doctor) about the dosage and the frequency per day.
 * The payment policy at the hospital is such that every patient can pay his/her hospital bills in maximum of 3 installments, where every installment has an installment # showing if it is the 1st, 2nd or 3rd installment for the payment, as well as the date and the amount of the payment.
 
-**Create an ER diagram for the hospital database, indicating its elements. For each entity set, define all the attributes specified above, and introduce 2 more new “real life” attributes, including a primary key.**
+**Create an ER diagram for the hospital database, indicating its elements. For each entity set, define all the attributes specified above, and introduce 2 more new “real life” attributes, including a primary key.** <br>
 
 2. Drug Store Database
 Suppose you are given the following information about a database for a chain of drug stores:
