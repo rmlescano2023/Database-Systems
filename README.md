@@ -13,7 +13,7 @@ significant relationships between pairs of entities.
 Create a Crow’s Foot ERD for each of the following descriptions. (Note that the
 word "many" is meant to mean "more than one" in a database modelling environment.).
 
-Note. Include all your ERDs in one file.
+*Note. Include all your ERDs in one file.*
 
 **Data Descriptions:**
 1. Each of the MegaCo Corporation’s divisions is composed of many departments. Each of the departments has many employees assigned to it, but each employee works for only one department. Each department is managed by one employee, and each of these managers can manage only one department at a time.
