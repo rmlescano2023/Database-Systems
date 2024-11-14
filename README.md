@@ -62,11 +62,46 @@ Suppose you are given the following information about a database for a chain of 
 * Drugstores appoint a supervisor for each contract. There must always be a supervisor for each contract, but the contract supervisor can change over the lifetime of the contract,
 * If a pharmaceutical company is deleted, you need not keep track of its products any longer.
 
-
-
 <br>
 
 ## LAB 3
+
+### Lab 3.1
+
+Before we start this lab, download and install XAMPP at https://www.apachefriends.org/download.html in your computer.
+
+Save the University.sql file inside the XAMPP folder located in your local computer C Drive. (Note: we need to save all our sql files inside the XAMMP folder later)
+
+Follow the instructions below to create a database and to use the sql file (University.sql) provided.
+
+1. OPEN XAMMP in your computer.
+2. START Apache and MySQL.
+3. Open the SHELL.
+4. In the Shell or XAMMP Command Prompt, type mysql -u root -p and press ENTER. You will be asked for a password, since we didn’t set any password, just PRESS ENTER again. The command prompt should look like this.
+5. Type CREATE DATABASE your_preferred_database name.
+6. After creating your database, CLOSE the SHELL.
+7. OPEN the shell again just like how you did it in STEP 3.
+8. In the shell, type mysql -u root -p your_preferred_database_name < existing_database.sql and press ENTER.
+9. Login again just like how you did it in STEP 4. When you successfully logged in, a welcome message will be displayed to you.
+10. Type USE your_preferred_database_name and press ENTER.
+11. If you want to show the tables inside your database, type SHOW TABLES;
+
+An SQL CHEAT SHEET was uploaded in the LMS, use the CHEAT SHEET to explore more commands in SQL where you will be able to see the contents of your database and answer the questions for this laboratory exercise.
+
+You will have a write up for this laboratory exercise.
+
+If you are done using XAMMP, don’t forget to STOP your APACHE and MySQL.
+
+**Writeup Structure (each answer is worth 10 points, use questions below as answer headers):**
+1. What entities/ tables are in your database?
+2. What columns does each table have and what data types do the columns hold?
+3. Explain what primary and secondary keys are and list which primary and secondary keys exist in your database.
+4. Draw an Entity Relationship Diagram (ERD) of your database. You must use either Microsoft Visio or any of the Free Open Source Software (FOSS) alternatives such as Dia. Include a screenshot of your drawing in the final write up file.
+5. Give an example of each of the following from your database and describe in detail why your example satisfies the definition:
+* One-to-one relationship
+* One-to-many relationship
+* Many-to-many relationship
+* Recursive relationship 
 
 
 <br>
