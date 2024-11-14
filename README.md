@@ -103,6 +103,21 @@ If you are done using XAMMP, don’t forget to STOP your APACHE and MySQL.
 * Many-to-many relationship
 * Recursive relationship 
 
+### Lab 3.2
+1. Open a Connection to MySQL. Type the code below in your text editor and save as DBConnector.php in C:\xampp\htdocs\sample directory (create the folder sample inside C:\xampp\htdocs\). Before we can access data in the MySQL database, we need to be able to connect to the server.
+2. Make sure that you START Apache and MySQL (in XAMPP), then access the DBConnector.php file in a web browser using the url localhost/sample/DBConnector.php. A message Connect Successfully should be displayed in your browser.
+3. Type the code below in your text editor and save as display.php in C:\xampp\htdocs\sample directory (it’s the same directory where you saved your DBConnector.php).
+4. Access the display.php file in a browser using the url localhost/sample/display.php
+display.php displays all the data stored in table employee
+5. In your text editor again, type the code below save as addRow.php in C:\xampp\htdocs\sample directory (it’s the same directory where you saved your DBConnector.php and display.php).
+6. Access the addRow.php file in a browser using the url localhost/sample/addRow.php
+addRow.php will add a row of data in the employee table and show he ID of that new row along with its other attributes.
+
+Take a screenshot of the entire screen of your laptop/desktop (should include the Taskbar of your desktop – do not crop your screenshot) for every output in your browser of DBConnector.php, display.php, and addRow.php.
+
+Put those three (3) screenshots in a document file that you will submit as an output for this Laboratory exercise.
+
+
 
 <br>
 
